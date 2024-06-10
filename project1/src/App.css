@@ -1,0 +1,47 @@
+.main{
+  height: auto  ;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+
+}
+button{
+  margin: 20px;
+}
+#form{
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px gainsboro;
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+  /* border: 1px solid black; */
+}
+h2{
+  text-align: center;
+  color: blue;
+}
+
+#table{
+  /* border: 1px solid red; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+table,th,td{
+  border: 1px solid black;
+}
+th,td{
+  padding: 20px;
+}
